@@ -1,0 +1,168 @@
+body{
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat;
+}
+
+p{
+  font-family: Ubuntu;
+  color: #8f8f8f
+}
+
+/* Headings */
+
+.big-head{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-head{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navbar Section */
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.btoon{
+  margin: 5% 3% 5% 0;
+}
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* Features Section */
+
+#features{
+  position: relative;
+}
+
+.feature-head{
+  font-size: 1.5rem;
+}
+
+.featts{
+  padding: 5%;
+}
+
+.iconfeat{
+  color: #ef8172;
+  margin: 1rem
+}
+
+.iconfeat:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+.test-head{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.test-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+  padding-bottom: 3%
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-head{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-col{
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta{
+  line-height: 1.5;
+}
+
+/* Footer Section */
+
+#footer{
+  font-family: Ubuntu;
+}
+
+.iconfoot{
+  padding: 1%;
+}
